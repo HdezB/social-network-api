@@ -3,14 +3,16 @@ const {
     getAllThoughts,
     getThoughtById,
     createThought,
+    addReaction,
     updateThought,
-    deleteThought
+    deleteThought,
+    deleteReaction
 } = require('../../controllers/thought-controller');
 const { route } = require('./user-routes');
 
 // GET & POST set up @ /api/thoughts
 router
-route('/')
+.route('/')
 .get(getAllThoughts)
 .post(createThought)
 
