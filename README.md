@@ -1,7 +1,5 @@
 # social-network-api
 
-# budget-tracker
-
 ## Purpose
 On this modern age social media is something most people use on their daily lives, 
 connecting to peers, liking pictures and so much more. This api allows for user interactions
