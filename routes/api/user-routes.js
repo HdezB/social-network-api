@@ -26,7 +26,7 @@ router
 // PUT to update a user's friend list & DELETE to remove a friend @ /api/users/:userId/friends/:friendId
 router
     .route('/:userId/friends/:friendId')
-    .put(addFriend)
+    .post(addFriend)
     .delete(deleteFriend)
 
 module.exports = router;
